@@ -59,4 +59,3 @@ class CommentViewSet(viewsets.ModelViewSet):
         if serializer.author != self.request.user:
             raise PermissionDenied('Удаление чужого комментария запрещено!')
         super(CommentViewSet, self).perform_destroy(serializer)
-
