@@ -14,7 +14,7 @@ API доступен аутентифицированным пользовате
 1.  Клонирование репозитория
 
 ```
-git clone git@github.com:ваш-аккаунт-на-гитхабе/api_yatube.git
+git clone https://github.com/PrincessSophie/api_yatube.git
 
 ```
 
